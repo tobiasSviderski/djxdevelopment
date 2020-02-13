@@ -1,0 +1,30 @@
+body {
+    position: relative;
+    background: rgb(101, 250, 250);
+    background: linear-gradient(135deg, rgba(101, 250, 250, 1) 15%, rgba(30, 180, 18, 1) 72%, rgba(0, 131, 112, 1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo-picture {
+    width: 100%;
+}
+
+.main_container {
+    max-width: 80vw;
+    background-color: white;
+    opacity: 0.9;
+}
+
+h2,
+h3 {
+    font-family: 'Cambay', sans-serif;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: rgba(43, 255, 0, 0.986);
+}
